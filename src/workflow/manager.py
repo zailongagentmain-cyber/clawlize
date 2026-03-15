@@ -4,8 +4,8 @@
 from typing import Dict, List, Optional
 import uuid
 
-from src.workflow import Workflow, WorkflowStatus
-from src.workflow.storage import get_storage
+from . import Workflow, WorkflowStatus
+from .storage import get_storage
 
 
 class WorkflowManager:

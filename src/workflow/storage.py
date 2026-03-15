@@ -6,7 +6,7 @@ import os
 from typing import Optional, Dict, Any
 from datetime import datetime
 
-from src.workflow import Workflow, WorkflowStatus
+from . import Workflow, WorkflowStatus
 
 
 class WorkflowStorage:

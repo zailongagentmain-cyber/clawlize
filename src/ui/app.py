@@ -1,6 +1,12 @@
 """
 Clawlize - 企业尽职调查工作流 UI (增强版)
 """
+import os
+import sys
+
+# 添加项目根目录到路径
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
 import streamlit as st
 from src.workflow import get_manager, WorkflowStatus, NodeType
 from src.nodes import (

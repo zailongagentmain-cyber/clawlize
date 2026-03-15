@@ -4,8 +4,8 @@
 from typing import Any, Dict
 import re
 
-from src.workflow import Node, NodeContext, NodeType
-from src.nodes.data import (
+from ..workflow import Node, NodeContext, NodeType
+from .data import (
     get_company_info_by_code,
     search_company,
     download_annual_report,
