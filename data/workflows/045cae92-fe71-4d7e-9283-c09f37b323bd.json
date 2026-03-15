@@ -1,0 +1,39 @@
+{
+  "workflow_id": "045cae92-fe71-4d7e-9283-c09f37b323bd",
+  "name": "企业尽职调查",
+  "description": "测试",
+  "status": "completed",
+  "current_node_index": 2,
+  "context": {
+    "input_company_input": "600519",
+    "company_name": "600519",
+    "stock_code": "600519",
+    "input_company_result": {
+      "company_name": "600519",
+      "stock_code": "600519"
+    },
+    "company_info": {},
+    "current_price": null,
+    "change_pct": null,
+    "get_company_info_result": {
+      "stock_code": "600519",
+      "company_info": {},
+      "current_price": null,
+      "change_pct": null
+    }
+  },
+  "nodes": [
+    {
+      "node_id": "input_company",
+      "name": "输入公司名称",
+      "node_type": "user_input"
+    },
+    {
+      "node_id": "get_company_info",
+      "name": "获取工商信息",
+      "node_type": "auto"
+    }
+  ],
+  "created_at": "2026-03-15T19:04:56.677629",
+  "updated_at": "2026-03-15T19:04:57.732101"
+}
