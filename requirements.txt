@@ -6,4 +6,3 @@ pandas
 jinja2
 weasyprint
 python-docx
-sqlite3
